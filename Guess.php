@@ -66,7 +66,7 @@ function Guess($params) {
 function guess_string($string) {
 
 	// assume the $string is already utf8
-	if(!isset($this->$models))
+	if(!isset($this->models))
 		$this->load_models();
 	$runs = $this->find_runs($string);
 
