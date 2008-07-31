@@ -54,6 +54,7 @@ if( $guess->simple_guess("yakın tarihin en çekişmeli başkanlık seçiminde o
  if( $guess->simple_guess("Ennetamaks reisil ebameeldivaid vahejuhtumeid vii end kurssi reisidokumentide ja viisade reeglitega ning muu praktilise informatsiooniga")=="estonian"){echo "estonian ok\n";} else { echo "estonian not ok\n";}
  if( $guess->simple_guess("Hiába jön létre az önkéntes magyar haderő, hiába nem lesz többé bevonulás, változatlanul fennmarad a hadkötelezettség intézménye")=="hungarian"){echo "hungarian ok\n";} else { echo "hungarian not ok\n";}
   if( $guess->simple_guess("հարաբերական")=="armenian"){echo "armenian ok\n";} else { echo "armenian not ok\n";}
+  if( $guess->simple_guess("Farigis Ingeniero pri Agroscienco en tiel tiamnomitaj transmaraj landoj")=="esperanto"){echo "esperanto ok\n";} else { echo "esperanto not ok\n";}
 exit("ALL FINISHED\n");
 ?> 
  
